@@ -1,0 +1,13 @@
+server:
+  port: 9292
+
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sakethkammari/spring-ecommerce-configServer
+          clone-on-start: true
+          
